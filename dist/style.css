@@ -1,0 +1,27 @@
+* {
+    font-family: Arial, Helvetica, sans-serif;
+    box-sizing: border-box;
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+}
+
+.temp-unit {
+    font-size: smaller;
+}
+
+#settings-bar {
+    height: 75px;
+    width: 100%;
+    margin: 0;
+    padding-inline: 30px;
+    background-color: lightskyblue;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
